@@ -1,19 +1,20 @@
 :root {
     --black: #212121
-    --grey: #757575, 
+    --grey: #757575,
     --white: #ffffff
     --accent-color: #2196f3;
     --color-logo: #000000;
-    --color-background: ##2F303A;
+    --color-background: #2F303A;
     --color-section-benefit-background: #F5F5F5;
     --color-section-our-time-solid: #f5f4fa;
     --color-border: #ecece
 }
 body{
 font-family: "Roboto", sans-serif;
+font-weight: 500;
 }
 .hero-title{
-    font-family: 900;
+    font-weight: 900;
 }
 .header-logo{
     font-family: "Raleway";
@@ -43,10 +44,16 @@ font-family: "Roboto", sans-serif;
     text-decoration: none;
     cursor: pointer;
 }
-/*НЕ ПІДСВІЧУЄ КНОПКА, Я НЕ РОЗУМІЮ ПОМИЛКИ*/
+/*НЕ ПІДСВІЧУЄ КНОПКА, Я НЕ РОЗУМІЮ ПОМИЛКИ
+/*активацію якщо я пропишу, це ж дублюю нижню формулу
+.button.secondary{
+    color: var(--accent-color);
+    background-color: var(--white-color);
+}*/
 .header-nav .button.secondary:hover,
 .header-nav .button.secondary:focus{
-    color: var(--secondary-text-color);
+    color: var(--accent-color);
+    background-color: var(--white);
 }
 /* Портфоліо і Контакт*/
 .button-primary b{
@@ -63,11 +70,6 @@ font-family: "Roboto", sans-serif;
     line-height: 1.1;
     letter-spacing: 2em;
     text-decoration: none;
-}
-/*активація*/
-.button.secondary{
-        color: var(--accent-color);
-        background-color: var(--white-color);
 }
 .button{
 color: var(--secondary-text-color);
@@ -105,6 +107,8 @@ text-decoration: none;
     color: var(--white color);
     background-color: var(--accent-color);
 }
+
+/*title-benefits позначаються 4 рази*/
 .visually-hidden{
     position: absolute;
     white-space: nowrap;
@@ -117,7 +121,6 @@ text-decoration: none;
     clip-path: inset(50%);
     margin: -1px;
 }
-/*title-benefits позначаються 4 рази*/
 .benefit{
     color: var(--primary-text-color);
     font-size: 14px;
@@ -142,7 +145,7 @@ letter-spacing: 3em;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
-    letter-spacing: 3em; 
+    letter-spacing: 3em;
 }
 /*3 картинки чи треба було щось заповнювати?*/
 .myzaimaemos-list list{
@@ -181,7 +184,6 @@ letter-spacing: 3em;
 .foto-our-team{
     position: absolute;
     width: 270px;
-
     height: 260px;
     border: none;
 }
