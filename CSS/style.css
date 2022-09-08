@@ -152,10 +152,6 @@ letter-spacing: 3em;
     list-style: none;
 }
 .myzaimaemos-item {
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    border: none;
 }
 /* section our-team*/
 .our-team{
