@@ -22,12 +22,12 @@ body {
 .hero-title {
     font-weight: 900;
 }
-.header-logo:hover {
+.header-logo :hover {
     font-family: "Raleway";
     font-weight: 700;
 } 
 /*header*/
-.header-logo a:hover {
+.header-logo a :hover {
     color: var(--accent-color);
     font-family: "Raleway";
     font-size: 26px;
@@ -40,7 +40,7 @@ ul{
     list-style: none; 
 }
 /*Студія*/
-.button.primery {
+.button .primery {
     color: var(--accent-color);
     background-color: var(--primary-white-color);
     /*font-size: 14px;
@@ -49,13 +49,13 @@ ul{
     letter-spacing: 0.02em;*/
     border-color: red;
 }
-.header-nav.button-primery link:hover,
-.header-nav.button-primery link:focus {
+.header-nav .button-primery link:hover,
+.header-nav .button-primery link:focus {
     color: var(--accent-color);
     background-color: var(--color white);
 }
 /*Портфолио та контакт*/
-.button.secondery {
+.button .secondery {
     color: var(--color text);
     background-color: var(--primary-white-color);
     /*font-size: 14px;
@@ -72,8 +72,8 @@ ul{
     display: inline-block;
     border: 1px solid black;
 }
-.button a:hover,
-.button a:focus {
+.button a :hover,
+.button a :focus {
     color: var(--accent-color);
 }
 /*Переваги*/
@@ -117,7 +117,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
 }
 /*footer*/
-.foter logo{
+.foter logo {
     color: var(--accent-color);
     font-family: "Raleway";
     font-size: 26px;
@@ -125,24 +125,24 @@ letter-spacing: 0.03em;
     line-height: 31;
     letter-spacing: 0.03em;
 }
-.address list list{
+.address list list {
     list-style: none;
 }
-.footer address{
+.footer address {
     color: var(--color white);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
 }
-.footer mailto{
+.footer mailto {
     color: var(--color ft);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
 }
-.footer contact{
+.footer contact {
     color: var(--color ft);
     font-size: 14px;
     font-weight: 400;
